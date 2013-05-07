@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="owner" realname="owner" primarykey="id_owner" />
+    </datasources>
+    <record>
+        <property name="id_owner" fieldname="id_owner" datatype="int" autoincrement="true"/>
+        <property name="own_email" fieldname="own_email" datatype="varchar" required="true" maxlength="70"/>
+        <property name="own_pwd" fieldname="own_pwd" datatype="varchar" default="" maxlength="100"/>
+        <property name="own_hash" fieldname="own_hash" datatype="char" required="true"/>
+        <property name="own_civility" fieldname="own_civility" datatype="enum" required="true"/>
+        <property name="own_lastname" fieldname="own_lastname" datatype="varchar" required="true" maxlength="40"/>
+        <property name="own_firstname" fieldname="own_firstname" datatype="varchar" required="true" maxlength="40"/>
+        <property name="own_address1" fieldname="own_address1" datatype="varchar" required="true" maxlength="50"/>
+        <property name="own_address2" fieldname="own_address2" datatype="varchar" required="true" maxlength="50"/>
+        <property name="own_phone" fieldname="own_phone" datatype="varchar" required="true" maxlength="20"/>
+        <property name="own_mobile" fieldname="own_mobile" datatype="varchar" required="true" maxlength="20"/>
+        <property name="own_receiveSms" fieldname="own_receiveSms" datatype="tinyint" required="true"/>
+        <property name="own_giteoLink" fieldname="own_giteoLink" datatype="tinyint" required="true" default="0"/>
+        <property name="own_website" fieldname="own_website" datatype="varchar" required="true" maxlength="200"/>
+        <property name="own_dataSession" fieldname="own_dataSession" datatype="text" required="true"/>
+        <property name="own_cre" fieldname="own_cre" datatype="datetime" required="true"/>
+        <property name="own_mod" fieldname="own_mod" datatype="datetime" default=""/>
+        <property name="own_lastConn" fieldname="own_lastConn" datatype="datetime" default=""/>
+        <property name="id_city" fieldname="id_city" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

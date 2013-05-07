@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="district" realname="district" primarykey="id_district" />
+    </datasources>
+    <record>
+        <property name="id_district" fieldname="id_district" datatype="int" autoincrement="true"/>
+        <property name="dst_name" fieldname="dst_name" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dst_urlName" fieldname="dst_urlName" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dst_neighbors" fieldname="dst_neighbors" datatype="varchar" required="true" maxlength="30"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

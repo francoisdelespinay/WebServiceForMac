@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="domain_description" realname="domain_description" primarykey="id_domain,id_language" />
+    </datasources>
+    <record>
+        <property name="dds_short" fieldname="dds_short" datatype="tinytext" required="true"/>
+        <property name="dds_long" fieldname="dds_long" datatype="text" required="true"/>
+        <property name="dds_activities" fieldname="dds_activities" datatype="text" required="true"/>
+        <property name="dds_information" fieldname="dds_information" datatype="text" required="true"/>
+        <property name="dds_access" fieldname="dds_access" datatype="text" required="true"/>
+        <property name="id_domain" fieldname="id_domain" datatype="int" required="true"/>
+        <property name="id_language" fieldname="id_language" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

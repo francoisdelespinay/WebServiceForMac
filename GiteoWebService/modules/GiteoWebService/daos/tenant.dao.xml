@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="tenant" realname="tenant" primarykey="id_tenant" />
+    </datasources>
+    <record>
+        <property name="id_tenant" fieldname="id_tenant" datatype="int" autoincrement="true"/>
+        <property name="ten_email" fieldname="ten_email" datatype="varchar" required="true" maxlength="70"/>
+        <property name="ten_pwd" fieldname="ten_pwd" datatype="varchar" default="" maxlength="100"/>
+        <property name="ten_hash" fieldname="ten_hash" datatype="char" required="true"/>
+        <property name="ten_civility" fieldname="ten_civility" datatype="enum" required="true"/>
+        <property name="ten_lastname" fieldname="ten_lastname" datatype="varchar" required="true" maxlength="40"/>
+        <property name="ten_firstname" fieldname="ten_firstname" datatype="varchar" required="true" maxlength="40"/>
+        <property name="ten_phone" fieldname="ten_phone" datatype="varchar" required="true" maxlength="20"/>
+        <property name="ten_receiveSms" fieldname="ten_receiveSms" datatype="tinyint" required="true"/>
+        <property name="ten_message" fieldname="ten_message" datatype="text" required="true"/>
+        <property name="ten_cre" fieldname="ten_cre" datatype="datetime" required="true"/>
+        <property name="ten_mod" fieldname="ten_mod" datatype="datetime" default=""/>
+        <property name="ten_lastConn" fieldname="ten_lastConn" datatype="datetime" default=""/>
+        <property name="id_language" fieldname="id_language" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

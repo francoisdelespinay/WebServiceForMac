@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="message" realname="message" primarykey="id_message" />
+    </datasources>
+    <record>
+        <property name="id_message" fieldname="id_message" datatype="int" autoincrement="true"/>
+        <property name="msg_sender" fieldname="msg_sender" datatype="enum" required="true"/>
+        <property name="msg_body" fieldname="msg_body" datatype="text" required="true"/>
+        <property name="msg_isFirst" fieldname="msg_isFirst" datatype="tinyint" required="true"/>
+        <property name="msg_dateView" fieldname="msg_dateView" datatype="datetime" default=""/>
+        <property name="msg_dateReading" fieldname="msg_dateReading" datatype="datetime" default=""/>
+        <property name="msg_cre" fieldname="msg_cre" datatype="datetime" required="true"/>
+        <property name="id_message_group" fieldname="id_message_group" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

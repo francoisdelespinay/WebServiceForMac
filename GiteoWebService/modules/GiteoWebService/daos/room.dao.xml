@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="room" realname="room" primarykey="id_room" />
+    </datasources>
+    <record>
+        <property name="id_room" fieldname="id_room" datatype="int" autoincrement="true"/>
+        <property name="roo_name" fieldname="roo_name" datatype="varchar" required="true" maxlength="40"/>
+        <property name="roo_capacity" fieldname="roo_capacity" datatype="tinyint" required="true"/>
+        <property name="roo_equipment" fieldname="roo_equipment" datatype="tinyint" required="true"/>
+        <property name="roo_nbNightsMin1" fieldname="roo_nbNightsMin1" datatype="tinyint" required="true"/>
+        <property name="roo_nbNightsMin2" fieldname="roo_nbNightsMin2" datatype="tinyint" required="true"/>
+        <property name="roo_cre" fieldname="roo_cre" datatype="datetime" required="true"/>
+        <property name="roo_mod" fieldname="roo_mod" datatype="datetime" default=""/>
+        <property name="roo_del" fieldname="roo_del" datatype="datetime" default=""/>
+        <property name="id_domain" fieldname="id_domain" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

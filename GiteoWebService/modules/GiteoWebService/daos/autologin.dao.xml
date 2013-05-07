@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="autologin" realname="autologin" primarykey="id_autologin" />
+    </datasources>
+    <record>
+        <property name="id_autologin" fieldname="id_autologin" datatype="int" autoincrement="true"/>
+        <property name="alg_code" fieldname="alg_code" datatype="char" required="true"/>
+        <property name="alg_nbUses" fieldname="alg_nbUses" datatype="tinyint" required="true" default="0"/>
+        <property name="alg_cre" fieldname="alg_cre" datatype="datetime" required="true"/>
+        <property name="alg_lastUse" fieldname="alg_lastUse" datatype="datetime" default=""/>
+        <property name="id_owner" fieldname="id_owner" datatype="int" default=""/>
+        <property name="id_tenant" fieldname="id_tenant" datatype="int" default=""/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

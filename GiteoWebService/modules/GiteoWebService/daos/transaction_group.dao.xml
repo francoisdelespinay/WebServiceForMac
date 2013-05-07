@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="transaction_group" realname="transaction_group" primarykey="id_transaction_group" />
+    </datasources>
+    <record>
+        <property name="id_transaction_group" fieldname="id_transaction_group" datatype="int" autoincrement="true"/>
+        <property name="tgr_month" fieldname="tgr_month" datatype="char" required="true"/>
+        <property name="tgr_invoiceNumber" fieldname="tgr_invoiceNumber" datatype="char" default=""/>
+        <property name="tgr_dateMailing" fieldname="tgr_dateMailing" datatype="datetime" default=""/>
+        <property name="tgr_vatRate" fieldname="tgr_vatRate" datatype="decimal" default=""/>
+        <property name="tgr_datePayment" fieldname="tgr_datePayment" datatype="datetime" default=""/>
+        <property name="tgr_paymentMean" fieldname="tgr_paymentMean" datatype="enum" default=""/>
+        <property name="tgr_nbRecalls" fieldname="tgr_nbRecalls" datatype="tinyint" required="true" default="0"/>
+        <property name="id_owner" fieldname="id_owner" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

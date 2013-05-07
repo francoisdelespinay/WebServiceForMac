@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="jt_booking_room" realname="jt_booking_room" primarykey="id_booking,id_room" />
+    </datasources>
+    <record>
+        <property name="id_booking" fieldname="id_booking" datatype="int" required="true"/>
+        <property name="id_room" fieldname="id_room" datatype="int" required="true"/>
+        <property name="jbr_nbPeople" fieldname="jbr_nbPeople" datatype="tinyint" required="true"/>
+        <property name="jbr_amount" fieldname="jbr_amount" datatype="decimal" default=""/>
+        <property name="jbr_markedUnavailable" fieldname="jbr_markedUnavailable" datatype="tinyint" required="true" default="0"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

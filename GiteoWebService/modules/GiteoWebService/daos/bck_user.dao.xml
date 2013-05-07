@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="bck_user" realname="bck_user" primarykey="id_bck_user" />
+    </datasources>
+    <record>
+        <property name="id_bck_user" fieldname="id_bck_user" datatype="int" autoincrement="true"/>
+        <property name="bku_name" fieldname="bku_name" datatype="varchar" required="true" maxlength="100"/>
+        <property name="bku_login" fieldname="bku_login" datatype="varchar" required="true" maxlength="70"/>
+        <property name="bku_hash" fieldname="bku_hash" datatype="char" required="true"/>
+        <property name="bku_type" fieldname="bku_type" datatype="enum" required="true"/>
+        <property name="bku_cre" fieldname="bku_cre" datatype="datetime" required="true"/>
+        <property name="bku_lastConn" fieldname="bku_lastConn" datatype="datetime" default=""/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

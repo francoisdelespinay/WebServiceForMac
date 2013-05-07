@@ -1,0 +1,306 @@
+2013-04-21 15:18:29	127.0.0.1	warning	2013-04-21 15:18:29	127.0.0.1	[2]	Creating default object from empty value	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	56
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 17:59:28	127.0.0.1	notice	2013-04-22 17:59:28	127.0.0.1	[8]	Undefined variable: promo	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:15:24	127.0.0.1	error	2013-04-22 18:15:24	127.0.0.1	[4096]	Object of class cDaoRecord_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to string	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:17:33	127.0.0.1	error	2013-04-22 18:17:33	127.0.0.1	[4096]	Object of class cDaoRecord_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to string	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:17:59	127.0.0.1	error	2013-04-22 18:17:59	127.0.0.1	[4096]	Object of class cDaoRecord_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to string	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:19:58	127.0.0.1	error	2013-04-22 18:19:58	127.0.0.1	[4096]	Object of class cDaoRecord_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to string	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	65
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl::index()	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php : 65
+	1	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	2	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:40:04	127.0.0.1	warning	2013-04-22 18:40:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	144
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 144
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:40:04	127.0.0.1	warning	2013-04-22 18:40:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:40:04	127.0.0.1	warning	2013-04-22 18:40:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:43:04	127.0.0.1	warning	2013-04-22 18:43:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:66)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	144
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 144
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:43:04	127.0.0.1	warning	2013-04-22 18:43:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:66)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:43:04	127.0.0.1	warning	2013-04-22 18:43:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:66)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:44:33	127.0.0.1	warning	2013-04-22 18:44:33	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	144
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 144
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:44:33	127.0.0.1	warning	2013-04-22 18:44:33	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:44:33	127.0.0.1	warning	2013-04-22 18:44:33	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:61)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:51:22	127.0.0.1	warning	2013-04-22 18:51:22	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	144
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 144
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:51:22	127.0.0.1	warning	2013-04-22 18:51:22	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:51:22	127.0.0.1	warning	2013-04-22 18:51:22	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:52:30	127.0.0.1	notice	2013-04-22 18:52:30	127.0.0.1	[8]	Undefined variable: monURL	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	19
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:59:04	127.0.0.1	warning	2013-04-22 18:59:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	144
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 144
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:59:04	127.0.0.1	warning	2013-04-22 18:59:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-22 18:59:04	127.0.0.1	warning	2013-04-22 18:59:04	127.0.0.1	[2]	Cannot modify header information - headers already sent by (output started at C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php:62)	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php	146
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=?
+array (   'GET|promotion|id_promotion' => '?', )
+
+	0	header()	C:\Users\www\jelix\lib\jelix\core\jResponse.class.php : 146
+	1	jResponse->sendHttpHeaders()	C:\Users\www\jelix\lib\jelix\core\response\jResponseJson.class.php : 39
+	2	jResponseJson->output()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 204
+	3	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 16:50:43	127.0.0.1	notice	2013-04-23 16:50:43	127.0.0.1	[8]	Object of class cDao_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to int	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	42
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=626&id_promotion=634
+array (   'GET|promotion|id_promotion' => '626',   'id_promotion' => '634', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 16:50:43	127.0.0.1	notice	2013-04-23 16:50:43	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to int	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	42
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=626&id_promotion=634
+array (   'GET|promotion|id_promotion' => '626',   'id_promotion' => '634', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 16:50:43	127.0.0.1	notice	2013-04-23 16:50:43	127.0.0.1	[8]	Object of class cDao_GiteoWebService_Jx_promotion_Jx_mysql could not be converted to int	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	42
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=626&id_promotion=634
+array (   'GET|promotion|id_promotion' => '626',   'id_promotion' => '634', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 16:50:43	127.0.0.1	notice	2013-04-23 16:50:43	127.0.0.1	[8]	Object of class mysqlDbResultSet could not be converted to int	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	42
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=626&id_promotion=634
+array (   'GET|promotion|id_promotion' => '626',   'id_promotion' => '634', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 16:50:43	127.0.0.1	warning	2013-04-23 16:50:43	127.0.0.1	[2]	Invalid argument supplied for foreach()	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php	58
+	/GiteoWebService/www/index.php?GET|promotion|id_promotion=626&id_promotion=634
+array (   'GET|promotion|id_promotion' => '626',   'id_promotion' => '634', )
+
+	0	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	1	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+
+2013-04-23 18:50:49	127.0.0.1	error	2013-04-23 18:50:49	127.0.0.1	[403]	invalid query (Duplicata du champ '40' pour la clef 'PRIMARY'(INSERT INTO `district` (	C:\Users\www\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	128
+	/GiteoWebService/www/index.php?PUT|district|id_district=40&dst_name=Corica&dst_urlName=corica&dst_neighbors=10,12
+array (   'PUT|district|id_district' => '40',   'dst_name' => 'Corica',   'dst_urlName' => 'corica',   'dst_neighbors' => '10,12', )
+
+	0	mysqlDbConnection->_doExec()	C:\Users\www\jelix\lib\jelix\db\jDbConnection.class.php : 147
+	1	jDbConnection->exec()	C:\Users\www\temp\GiteoWebService\www\compiled\daos\modules\GiteoWebService~district~mysql.php : 161
+	2	cDao_GiteoWebService_Jx_district_Jx_mysql->insert()	C:\Users\www\GiteoWebService\modules\GiteoWebService\controllers\default.classic.php : 87
+	3	defaultCtrl->index()	C:\Users\www\jelix\lib\jelix\core\jCoordinator.class.php : 195
+	4	jCoordinator->process()	C:\Users\www\GiteoWebService\www\index.php : 19
+
+

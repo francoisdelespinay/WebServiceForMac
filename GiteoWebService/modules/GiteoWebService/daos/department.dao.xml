@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="department" realname="department" primarykey="id_department" />
+    </datasources>
+    <record>
+        <property name="id_department" fieldname="id_department" datatype="int" autoincrement="true"/>
+        <property name="dpt_number" fieldname="dpt_number" datatype="char" required="true"/>
+        <property name="dpt_name" fieldname="dpt_name" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dpt_urlName" fieldname="dpt_urlName" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dpt_neighbors" fieldname="dpt_neighbors" datatype="varchar" required="true" maxlength="50"/>
+        <property name="id_district" fieldname="id_district" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

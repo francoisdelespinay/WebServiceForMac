@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="language" realname="language" primarykey="id_language" />
+    </datasources>
+    <record>
+        <property name="id_language" fieldname="id_language" datatype="int" autoincrement="true"/>
+        <property name="lng_name" fieldname="lng_name" datatype="varchar" required="true" maxlength="20"/>
+        <property name="lng_diminutive" fieldname="lng_diminutive" datatype="char" required="true"/>
+        <property name="lng_default" fieldname="lng_default" datatype="tinyint" required="true"/>
+        <property name="lng_isOnline" fieldname="lng_isOnline" datatype="tinyint" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

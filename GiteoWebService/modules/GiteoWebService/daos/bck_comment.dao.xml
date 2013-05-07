@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="bck_comment" realname="bck_comment" primarykey="id_bck_comment" />
+    </datasources>
+    <record>
+        <property name="id_bck_comment" fieldname="id_bck_comment" datatype="int" autoincrement="true"/>
+        <property name="bcm_comment" fieldname="bcm_comment" datatype="text" required="true"/>
+        <property name="bcm_cre" fieldname="bcm_cre" datatype="datetime" required="true"/>
+        <property name="id_domain" fieldname="id_domain" datatype="int" default=""/>
+        <property name="id_booking" fieldname="id_booking" datatype="int" default=""/>
+        <property name="id_bck_user" fieldname="id_bck_user" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

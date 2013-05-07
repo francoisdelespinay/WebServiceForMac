@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="city" realname="city" primarykey="id_city" />
+    </datasources>
+    <record>
+        <property name="id_city" fieldname="id_city" datatype="int" autoincrement="true"/>
+        <property name="cit_code" fieldname="cit_code" datatype="varchar" required="true" maxlength="5"/>
+        <property name="cit_name" fieldname="cit_name" datatype="varchar" required="true" maxlength="100"/>
+        <property name="cit_urlName" fieldname="cit_urlName" datatype="varchar" required="true" maxlength="100"/>
+        <property name="cit_lat" fieldname="cit_lat" datatype="decimal" default=""/>
+        <property name="cit_lng" fieldname="cit_lng" datatype="decimal" default=""/>
+        <property name="cit_nbCottageSrch" fieldname="cit_nbCottageSrch" datatype="int" required="true"/>
+        <property name="cit_nbBabSrch" fieldname="cit_nbBabSrch" datatype="int" required="true"/>
+        <property name="id_department" fieldname="id_department" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

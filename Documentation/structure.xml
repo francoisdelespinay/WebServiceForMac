@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="">
+  <file path="application.init.php" hash="de32687fba7bfa6d4f6e455df0c21f94" package="GiteoWebService\">
+    <docblock line="2">
+      <description></description>
+      <long-description></long-description>
+      <tag line="2" name="package" description="GiteoWebService"/>
+      <tag line="2" name="subpackage" description=""/>
+      <tag line="2" name="author" description="your name"/>
+      <tag line="2" name="copyright" description="2011 your name"/>
+      <tag line="2" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+      <tag line="2" name="license" description="All rights reserved"/>
+    </docblock>
+    <include line="12" type="Require" package="Default">
+      <name/>
+    </include>
+    <parse_markers>
+      <critical line="2" code="50008">No short description for file application.init.php</critical>
+    </parse_markers>
+  </file>
+  <file path="cmd.php" hash="86f8d499ea8fa7e497ff5c081d4aa12f" package="jelix">
+    <docblock line="2">
+      <description></description>
+      <long-description></long-description>
+      <tag line="2" name="package" description="jelix"/>
+      <tag line="2" name="author" description="Laurent Jouanneau"/>
+      <tag line="2" name="contributor" description=""/>
+      <tag line="2" name="copyright" description="2011 Laurent Jouanneau"/>
+      <tag line="2" name="link" description="http://jelix.org" link="http://jelix.org"/>
+      <tag line="2" name="licence" description="http://www.gnu.org/licenses/gpl.html GNU General Public Licence, see LICENCE file"/>
+    </docblock>
+    <include line="10" type="Require" package="Default">
+      <name/>
+    </include>
+    <include line="11" type="Require" package="Default">
+      <name/>
+    </include>
+    <parse_markers>
+      <critical line="2" code="50008">No short description for file cmd.php</critical>
+    </parse_markers>
+  </file>
+  <file path="install/installer.php" hash="c4e2e2336fd9a7841c0d22ca47de15f9" package="GiteoWebService">
+    <docblock line="2">
+      <description></description>
+      <long-description></long-description>
+      <tag line="2" name="package" description="GiteoWebService"/>
+      <tag line="2" name="author" description="your name"/>
+      <tag line="2" name="copyright" description="2011 your name"/>
+      <tag line="2" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+      <tag line="2" name="license" description="All rights reserved"/>
+    </docblock>
+    <include line="10" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <parse_markers>
+      <critical line="2" code="50008">No short description for file install/installer.php</critical>
+    </parse_markers>
+  </file>
+  <file path="modules/GiteoWebService/controllers/default.classic.php" hash="d41ddc80064d57696abab9cdca7be863" package="Default">
+    <class final="false" abstract="false" namespace="global" line="11" package="GiteoWebService\GiteoWebService">
+      <extends>\jController</extends>
+      <name>defaultCtrl</name>
+      <full_name>\defaultCtrl</full_name>
+      <docblock line="3">
+        <description></description>
+        <long-description></long-description>
+        <tag line="3" name="package" description="GiteoWebService"/>
+        <tag line="3" name="subpackage" description="GiteoWebService"/>
+        <tag line="3" name="author" description="your name"/>
+        <tag line="3" name="copyright" description="2011 your name"/>
+        <tag line="3" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+        <tag line="3" name="license" description="All rights reserved"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="13" package="GiteoWebService\GiteoWebService">
+        <name>index</name>
+        <full_name>index</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file modules/GiteoWebService/controllers/default.classic.php</error>
+      <critical line="3" code="50005">No short description for class \defaultCtrl</critical>
+      <error line="13" code="50010">No DocBlock was found for method index()</error>
+    </parse_markers>
+  </file>
+  <file path="modules/GiteoWebService/install/install.php" hash="42903cc995b3c9faf50acc0d6312b5cd" package="Default">
+    <class final="false" abstract="false" namespace="global" line="12" package="GiteoWebService\GiteoWebService">
+      <extends>\jInstallerModule</extends>
+      <name>GiteoWebServiceModuleInstaller</name>
+      <full_name>\GiteoWebServiceModuleInstaller</full_name>
+      <docblock line="2">
+        <description></description>
+        <long-description></long-description>
+        <tag line="2" name="package" description="GiteoWebService"/>
+        <tag line="2" name="subpackage" description="GiteoWebService"/>
+        <tag line="2" name="author" description="your name"/>
+        <tag line="2" name="copyright" description="2011 your name"/>
+        <tag line="2" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+        <tag line="2" name="license" description="All rights reserved"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="14" package="GiteoWebService\GiteoWebService">
+        <name>install</name>
+        <full_name>install</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file modules/GiteoWebService/install/install.php</error>
+      <critical line="2" code="50005">No short description for class \GiteoWebServiceModuleInstaller</critical>
+      <error line="14" code="50010">No DocBlock was found for method install()</error>
+    </parse_markers>
+  </file>
+  <file path="responses/myHtmlResponse.class.php" hash="e6d10e69ae50b213e393105fbce7f8d7" package="GiteoWebService\">
+    <docblock line="2">
+      <description></description>
+      <long-description></long-description>
+      <tag line="2" name="package" description="GiteoWebService"/>
+      <tag line="2" name="subpackage" description=""/>
+      <tag line="2" name="author" description="your name"/>
+      <tag line="2" name="copyright" description="2011 your name"/>
+      <tag line="2" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+      <tag line="2" name="license" description="All rights reserved"/>
+    </docblock>
+    <include line="12" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="14" package="Default">
+      <extends>\jResponseHtml</extends>
+      <name>myHtmlResponse</name>
+      <full_name>\myHtmlResponse</full_name>
+      <property final="false" static="false" visibility="public" line="16" namespace="global" package="Default">
+        <name>$bodyTpl</name>
+        <default>'GiteoWebService~main'</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="24" package="Default">
+        <name>doAfterActions</name>
+        <full_name>doAfterActions</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <critical line="2" code="50008">No short description for file responses/myHtmlResponse.class.php</critical>
+      <error line="14" code="50000">No DocBlock was found for \myHtmlResponse</error>
+      <error line="16" code="50018">No DocBlock was found for property $bodyTpl</error>
+      <error line="18" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="24" code="50010">No DocBlock was found for method doAfterActions()</error>
+    </parse_markers>
+  </file>
+  <file path="var/config/defaultconfig.ini.php" hash="56c43b16e80a374b254368925bc1502b" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file var/config/defaultconfig.ini.php</error>
+    </parse_markers>
+  </file>
+  <file path="var/config/index/config.ini.php" hash="095dc304400c5b244c894c5149a1c8c5" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file var/config/index/config.ini.php</error>
+    </parse_markers>
+  </file>
+  <file path="var/config/installer.ini.php" hash="9c7297b57381d3397cc5d84a2a7e35aa" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file var/config/installer.ini.php</error>
+    </parse_markers>
+  </file>
+  <file path="var/config/preferences.ini.php" hash="303b74cd5825218b7d369c258832162f" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file var/config/preferences.ini.php</error>
+    </parse_markers>
+  </file>
+  <file path="var/config/profiles.ini.php" hash="baf21218a15ed1f83183f92c0912963b" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file var/config/profiles.ini.php</error>
+    </parse_markers>
+  </file>
+  <file path="www/index.php" hash="2f6ed343f2d12728a14215e610d72ef3" package="GiteoWebService\">
+    <docblock line="2">
+      <description></description>
+      <long-description></long-description>
+      <tag line="2" name="package" description="GiteoWebService"/>
+      <tag line="2" name="subpackage" description=""/>
+      <tag line="2" name="author" description="your name"/>
+      <tag line="2" name="copyright" description="2011 your name"/>
+      <tag line="2" name="link" description="http://www.yourwebsite.undefined" link="http://www.yourwebsite.undefined"/>
+      <tag line="2" name="license" description="All rights reserved"/>
+    </docblock>
+    <include line="11" type="Require" package="Default">
+      <name>../application.init.php</name>
+    </include>
+    <include line="12" type="Require" package="Default">
+      <name/>
+    </include>
+    <parse_markers>
+      <critical line="2" code="50008">No short description for file www/index.php</critical>
+    </parse_markers>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="GiteoWebService" full_name="GiteoWebService">
+    <package name="" full_name="GiteoWebService\"/>
+    <package name="GiteoWebService" full_name="GiteoWebService\GiteoWebService"/>
+  </package>
+  <package name="jelix" full_name="jelix"/>
+  <namespace name="global" full_name="global"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>

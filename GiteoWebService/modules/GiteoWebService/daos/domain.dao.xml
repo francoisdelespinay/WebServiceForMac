@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="domain" realname="domain" primarykey="id_domain" />
+    </datasources>
+    <record>
+        <property name="id_domain" fieldname="id_domain" datatype="int" autoincrement="true"/>
+        <property name="dom_type" fieldname="dom_type" datatype="enum" required="true"/>
+        <property name="dom_name" fieldname="dom_name" datatype="varchar" required="true" maxlength="100"/>
+        <property name="dom_address1" fieldname="dom_address1" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dom_address2" fieldname="dom_address2" datatype="varchar" required="true" maxlength="50"/>
+        <property name="dom_location" fieldname="dom_location" datatype="enum" required="true"/>
+        <property name="dom_seaDistance" fieldname="dom_seaDistance" datatype="smallint" default=""/>
+        <property name="dom_housingType" fieldname="dom_housingType" datatype="enum" required="true"/>
+        <property name="dom_area" fieldname="dom_area" datatype="smallint" default=""/>
+        <property name="dom_capacity" fieldname="dom_capacity" datatype="tinyint" required="true"/>
+        <property name="dom_nbRooms" fieldname="dom_nbRooms" datatype="tinyint" required="true"/>
+        <property name="dom_nbBathrooms" fieldname="dom_nbBathrooms" datatype="tinyint" default=""/>
+        <property name="dom_nbBaths" fieldname="dom_nbBaths" datatype="tinyint" default=""/>
+        <property name="dom_petsAllowed" fieldname="dom_petsAllowed" datatype="tinyint" required="true"/>
+        <property name="dom_breakfast" fieldname="dom_breakfast" datatype="tinyint" required="true"/>
+        <property name="dom_depositRate" fieldname="dom_depositRate" datatype="decimal" default=""/>
+        <property name="dom_paymentMeans" fieldname="dom_paymentMeans" datatype="tinyint" default=""/>
+        <property name="dom_guarantee" fieldname="dom_guarantee" datatype="decimal" default=""/>
+        <property name="dom_noShowPenaltyRate" fieldname="dom_noShowPenaltyRate" datatype="decimal" default=""/>
+        <property name="dom_onHomePage" fieldname="dom_onHomePage" datatype="tinyint" required="true" default="0"/>
+        <property name="dom_pause" fieldname="dom_pause" datatype="tinyint" required="true" default="0"/>
+        <property name="dom_lat" fieldname="dom_lat" datatype="decimal" default=""/>
+        <property name="dom_lng" fieldname="dom_lng" datatype="decimal" default=""/>
+        <property name="dom_nbSrchDisplays" fieldname="dom_nbSrchDisplays" datatype="mediumint" required="true"/>
+        <property name="dom_qsManual" fieldname="dom_qsManual" datatype="decimal" default=""/>
+        <property name="dom_bckUserWhoNoted" fieldname="dom_bckUserWhoNoted" datatype="int" default=""/>
+        <property name="dom_qsFill" fieldname="dom_qsFill" datatype="decimal" required="true"/>
+        <property name="dom_bckUserWhoChecked1" fieldname="dom_bckUserWhoChecked1" datatype="int" default=""/>
+        <property name="dom_bckUserWhoChecked2" fieldname="dom_bckUserWhoChecked2" datatype="int" default=""/>
+        <property name="dom_dateValidation" fieldname="dom_dateValidation" datatype="datetime" default=""/>
+        <property name="dom_bckUserWhoValidated" fieldname="dom_bckUserWhoValidated" datatype="int" default=""/>
+        <property name="dom_cre" fieldname="dom_cre" datatype="datetime" required="true"/>
+        <property name="dom_mod" fieldname="dom_mod" datatype="datetime" default=""/>
+        <property name="dom_del" fieldname="dom_del" datatype="datetime" default=""/>
+        <property name="id_city" fieldname="id_city" datatype="int" required="true"/>
+        <property name="id_owner" fieldname="id_owner" datatype="int" required="true"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

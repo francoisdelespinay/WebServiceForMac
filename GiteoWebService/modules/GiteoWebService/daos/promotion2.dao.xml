@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="promotion2" realname="promotion2" primarykey="id_promotion2" />
+    </datasources>
+    <record>
+        <property name="id_promotion2" fieldname="id_promotion2" datatype="int" autoincrement="true"/>
+        <property name="pr2_title" fieldname="pr2_title" datatype="varchar" required="true" maxlength="20"/>
+        <property name="pr2_subTitle" fieldname="pr2_subTitle" datatype="varchar" required="true" maxlength="50"/>
+        <property name="pr2_description" fieldname="pr2_description" datatype="tinytext" required="true"/>
+        <property name="pr2_choice" fieldname="pr2_choice" datatype="enum" default=""/>
+        <property name="pr2_dateBegin" fieldname="pr2_dateBegin" datatype="date" required="true"/>
+        <property name="pr2_dateEnd" fieldname="pr2_dateEnd" datatype="date" required="true"/>
+        <property name="pr2_applyTo" fieldname="pr2_applyTo" datatype="enum" required="true"/>
+        <property name="pr2_type" fieldname="pr2_type" datatype="enum" required="true"/>
+        <property name="pr2_reduction" fieldname="pr2_reduction" datatype="varchar" required="true" maxlength="3"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

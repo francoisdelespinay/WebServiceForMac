@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="booking" realname="booking" primarykey="id_booking" />
+    </datasources>
+    <record>
+        <property name="id_booking" fieldname="id_booking" datatype="int" autoincrement="true"/>
+        <property name="bkg_dateBegin" fieldname="bkg_dateBegin" datatype="date" default=""/>
+        <property name="bkg_dateEnd" fieldname="bkg_dateEnd" datatype="date" default=""/>
+        <property name="bkg_nbPeople" fieldname="bkg_nbPeople" datatype="tinyint" default=""/>
+        <property name="bkg_amount" fieldname="bkg_amount" datatype="decimal" default=""/>
+        <property name="bkg_commissionRate" fieldname="bkg_commissionRate" datatype="decimal" default=""/>
+        <property name="bkg_message1" fieldname="bkg_message1" datatype="tinytext" required="true"/>
+        <property name="bkg_message2" fieldname="bkg_message2" datatype="tinytext" default=""/>
+        <property name="bkg_status" fieldname="bkg_status" datatype="enum" required="true"/>
+        <property name="bkg_isAvailabilityDemand" fieldname="bkg_isAvailabilityDemand" datatype="tinyint" required="true"/>
+        <property name="bkg_refusalReason" fieldname="bkg_refusalReason" datatype="enum" default=""/>
+        <property name="bkg_refusalReasonDetail" fieldname="bkg_refusalReasonDetail" datatype="tinytext" default=""/>
+        <property name="bkg_cancellationReason" fieldname="bkg_cancellationReason" datatype="enum" default=""/>
+        <property name="bkg_cancellationReasonDetail" fieldname="bkg_cancellationReasonDetail" datatype="tinytext" default=""/>
+        <property name="bkg_surveySent" fieldname="bkg_surveySent" datatype="tinyint" required="true" default="0"/>
+        <property name="bkg_tripType" fieldname="bkg_tripType" datatype="tinyint" default=""/>
+        <property name="bkg_customerNote" fieldname="bkg_customerNote" datatype="tinyint" default=""/>
+        <property name="bkg_customerComment1" fieldname="bkg_customerComment1" datatype="tinytext" default=""/>
+        <property name="bkg_customerComment2" fieldname="bkg_customerComment2" datatype="tinytext" default=""/>
+        <property name="bkg_recommendToFriends" fieldname="bkg_recommendToFriends" datatype="tinyint" default=""/>
+        <property name="bkg_dateView" fieldname="bkg_dateView" datatype="datetime" default=""/>
+        <property name="bkg_dateResponse1" fieldname="bkg_dateResponse1" datatype="datetime" default=""/>
+        <property name="bkg_dateResponse2" fieldname="bkg_dateResponse2" datatype="datetime" default=""/>
+        <property name="bkg_nbRecalls" fieldname="bkg_nbRecalls" datatype="tinyint" required="true" default="0"/>
+        <property name="bkg_dateSupportCall" fieldname="bkg_dateSupportCall" datatype="date" default=""/>
+        <property name="bkg_bckUserWhoChecked1" fieldname="bkg_bckUserWhoChecked1" datatype="int" default=""/>
+        <property name="bkg_bckUserWhoChecked2" fieldname="bkg_bckUserWhoChecked2" datatype="int" default=""/>
+        <property name="bkg_bckComment" fieldname="bkg_bckComment" datatype="tinytext" required="true"/>
+        <property name="bkg_bckUserWhoCommented" fieldname="bkg_bckUserWhoCommented" datatype="int" default=""/>
+        <property name="bkg_cre" fieldname="bkg_cre" datatype="datetime" required="true"/>
+        <property name="id_domain" fieldname="id_domain" datatype="int" required="true"/>
+        <property name="id_tenant" fieldname="id_tenant" datatype="int" required="true"/>
+        <property name="id_message_group" fieldname="id_message_group" datatype="int" default=""/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

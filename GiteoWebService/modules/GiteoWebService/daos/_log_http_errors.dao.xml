@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="_log_http_errors" realname="_log_http_errors" primarykey="id" />
+    </datasources>
+    <record>
+        <property name="id" fieldname="id" datatype="bigint" autoincrement="true"/>
+        <property name="date" fieldname="date" datatype="datetime" required="true"/>
+        <property name="status" fieldname="status" datatype="varchar" required="true" maxlength="30"/>
+        <property name="method" fieldname="method" datatype="enum" required="true"/>
+        <property name="uri" fieldname="uri" datatype="varchar" required="true" maxlength="255"/>
+        <property name="referer" fieldname="referer" datatype="varchar" default="" maxlength="255"/>
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>
